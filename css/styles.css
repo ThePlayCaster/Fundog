@@ -1,0 +1,222 @@
+/* ---- Color Section ---- */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* ---- Color Section end ---- */
+/* ---- Title Sections ---- */
+.title-nav-margin-bottom {
+  margin-bottom: 20px;
+}
+
+.title-title {
+  font-size: 2.5rem;
+  padding: 20px;
+  padding-left: 0;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* title nav-brand */
+.nav-brand {
+  font-family: "Ubuntu";
+}
+
+/* title nav-brand */
+.title-button2 {
+  margin-left: 20px;
+}
+
+.title-img {
+  transform: rotate(25deg);
+  width: 20rem;
+  position: absolute;
+  right: 20rem;
+}
+
+.title-links {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+/* ---- Title Section End ---- */
+/* ---- Feature Section ---- */
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-icons {
+  font-size: 60px;
+  line-height: 2;
+  color: #ef8172;
+}
+
+.feature-icons:hover {
+  font-size: 50px;
+  color: pink;
+}
+
+.feature-align-padding {
+  text-align: center;
+  padding: 5%;
+}
+
+/* ---- Feature Section End ---- */
+/* ---- Testimonials Section ---- */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Testimonials-carosel */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Testimonials-carosel End */
+/* ---- Testimonials Section End ---- */
+/* ---- Press Section ---- */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* ----Press Section End ---- */
+/* ---- Pricing Section ---- */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.priceing-head {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold 600;
+}
+
+/* ---- Pricing Section End ---- */
+/* ---- Call to  Action Section ---- */
+#cta {
+  padding: 10% 20%;
+  font-family: "Montserrat-black";
+}
+
+.cta-text {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+}
+
+.cta-button3 {
+  margin-top: 5%;
+  margin-left: 27.5%;
+}
+
+.cta-button4 {
+  margin-top: 5%;
+  margin-left: 50px;
+}
+
+/* ---- Call to Action Section End ---- */
+/* ---- Footer Section ---- */
+#footer {
+  padding: 8%;
+  text-align: center;
+}
+
+.footer-font {
+  padding: 10px;
+  line-height: 1.5;
+}
+
+.footer-para {
+  text-align: center;
+}
+
+/* ---- Footer Section End ---- */
+/* ---- Media works ---- */
+@media (max-width:1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    padding: 50px;
+  }
+
+  .title-button1 {
+    margin: 5%;
+  }
+
+  .title-button2 {
+    margin: 5%;
+  }
+
+  .cta-button4{
+    position: relative;
+    left: 28px;
+  }
+
+  .title-text {
+    text-align: center;
+  }
+}
+
+/* ---- Media works End ---- */
+/* --- My defaults --- */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-bold', sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3.5rem;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+h3 {
+  color: black;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold 600;
+}
+
+/* --- My default End --- */
